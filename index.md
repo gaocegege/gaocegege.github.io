@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 吃了没，世界
-tagline: 呵呵
+tagline: "呵呵"
 ---
 {% include JB/setup %}
 
