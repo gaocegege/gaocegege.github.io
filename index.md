@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog
+title: 吃了没，世界
 ---
 
 hehe
