@@ -1,7 +1,7 @@
 ---
 layout: post
 category : Test
-tagline: "测试中文哦"
+tagline: 测试中文哦
 tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
