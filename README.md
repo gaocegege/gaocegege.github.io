@@ -1,136 +1,27 @@
-<<<<<<< HEAD
-# Jekyll-Bootstrap
+Notepad is a Jekyll theme which is very simple, clean and beautiful. This theme is good for any blog.
+  
+Main Features:
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+* Zurb Foundation 5 – css framework
+* Scss files with settings file
+* Fullscreen post covers with header wich will be bright or dark according to background image
+* Fast and light
+* Font Awesome
+* Disqus comments integration
 
-## Usage
+You can set post image covers by using only Kramdown narkdown, just place something like this: `![cover-image](http://path-to-your-image.jpg)`
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+Credits:
 
-## Version
+* Zurb Foundation 5 [http://foundation.zurb.com/](http://foundation.zurb.com/)
+* Font Awesome [http://fontawesome.io](http://fontawesome.io)
+* Google fonts [http://www.google.com/fonts](http://www.google.com/fonts)
+* Background check [http://kennethcachia.com/background-check](http://kennethcachia.com/background-check)
+* Codrops article: [http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/](http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/)
+* There are also tools like jQuery, Modernizr, Normalize.
 
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
-
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
-
-## Contributing
-
-
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
-
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
-
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
-
-**Jekyll-Bootstrap Documentation Website.**
-
-The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
+If you'd like to give me credit somewhere on your blog or tweet a shout out to [@hmfaysal](https://twitter.com/hmfaysal), that would be pretty sweet.
 
 
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
-=======
-Flat UI Free 2.1.1
-=======
-
-Flat UI Free is licensed under a Creative Commons Attribution 3.0 Unported (CC BY 3.0)  (http://creativecommons.org/licenses/by/3.0/) and MIT License - http://opensource.org/licenses/mit-license.html. 
-
-You are allowed to use these elements anywhere you want, however we’ll highly appreciate if you will link to our [website](http://designmodo.com).
-
-## Links:
-
-+ [Demo Page](http://designmodo.github.io/Flat-UI/)
-+ [Download HTML](https://github.com/designmodo/Flat-UI/archive/master.zip) (for developers)
-+ [Download PSD](http://designmodo.com/flat-free/) (for designers)
-+ [Flat UI Pro 1.2.2](http://designmodo.com/flat/) (from $39)
-
-## Changelog
-
-
-+ 2.0 Compatibility with Flat UI Pro (Less instead of Sass), Bootstrap upgraded to 2.3.1, grids refinements, various Less compiler bugfixes, Video module bugfix, various small bugfixes.
-+ + 2.1 Bootstrap upgraded to 3.0, better box model, update html5 video player to version 4.1, added components documentation and sturt-up template, various small bugfixes.
-+ + 2.1.1 Typography improved (new global variables, padding and margins changed for basic elements, global default font-size now is 18px, with a line-height of 1.722, added support for <abbr>, <address>, <code>, <pre>, right-aligned <blockquote>), Buttons module completely rewritten (new global variables, buttons now require a .btn-default for the standard version, added support for .btn-link), fixed some bugs in .navbar, mixins updated (added standard mixins from Bootstrap 3), layout updated for stylized select and dropdown menu, various small bugfixes.
-
-+ 1.0 Fixed several small IE bugs
-+ 1.1 New icons, Login screen implemented to a real HTML one. Small bug fixes and refinements.
-
-
-
-## Authors
-
-**Sergey Shmidt**
-
-+ [http://shmidt.in](http://shmidt.in)
-+ [http://twitter.com/monstercritic](http://twitter.com/monstercritic)
-
-**Sergii Iurevych**
-
-+ [http://twitter.com/iurevych](http://twitter.com/iurevych)
-+ [http://github.com/iurevych](http://github.com/iurevych)
-
-## Typeface
-Flat UI Free is made using the Lato typeface, which can be downloaded for free here: http://www.google.com/webfonts/specimen/Lato
-
-##Useful Links (How To)
-
-How to Use UI Kits, Beginners Video Tips:                 [http://designmodo.com/how-to-use/](http://designmodo.com/how-to-use/)
-
-
-UI Kit Benefits:											                    [http://designmodo.com/benefits/](http://designmodo.com/benefits/)
-
-
-Create a Website using UI Packs (PSD to HTML) – Day 1: 		[http://designmodo.com/create-website-day-1](http://designmodo.com/create-website-day-1)
-
-Create a Website using UI Packs (PSD to HTML) – Day 2: 		[http://designmodo.com/create-website-day-2](http://designmodo.com/create-website-day-2)
-
-Create a Website using UI Packs (PSD to HTML) – Day 3: 		[http://designmodo.com/create-website-day-3](http://designmodo.com/create-website-day-3)
-
-Create a Website Design using The Bricks UI:				      [http://designmodo.com/website-design-bricks-ui/](http://designmodo.com/website-design-bricks-ui/)
-
-What is UI Kit and Why You Should Use it: 					      [http://designmodo.com/ui-kit-use](http://designmodo.com/ui-kit-use)
-
-How Companies can Save Time and Money Using UI Kits:		  [http://designmodo.com/save-time-money-using-ui-kits](http://designmodo.com/save-time-money-using-ui-kits)
-
-UI Kits for Developers – Prototyping and Homemade Design:	[http://designmodo.com/ui-kits-developers](http://designmodo.com/ui-kits-developers)
-
- 
-More productsfrom Designmodo:
-
-[http://designmodo.com/shop/](http://designmodo.com/shop/)
-
-
-Tutorials:
-
-[http://designmodo.com/tutorials/](http://designmodo.com/tutorials/)
-
-
-Freebies:
-
-[http://designmodo.com/freebies/](http://designmodo.com/freebies/)
-
-
-Affiliate Program (earn money): 
-
-[http://designmodo.com/affiliates/](http://designmodo.com/affiliates/)
-
-
-Social Media:
-
-Twitter: [http://www.twitter.com/designmodo](http://www.twitter.com/designmodo)
-
-Facebook: [http://www.facebook.com/designmodo](http://www.facebook.com/designmodo)
-
-RSS: [http://feeds.feedburner.com/designmodo](http://feeds.feedburner.com/designmodo)
-
-Google+: [https://www.google.com/+DesignModo](https://www.google.com/+DesignModo)
->>>>>>> 3b9e74f86fd522ee05f71d00f0aeb0c986dba0c6
+Warm Regards and Stay Creative,  
+Hossain Mohd. Faysal
