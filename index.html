@@ -1,9 +1,146 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <meta property="wb:webmaster" content="e387bca350c78429" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="jquery.ascensor.js"></script>
+    <link rel="stylesheet" href="main.css">
 </head>
 
-<body></body>
+<body>
+    <nav id="navigationMap">
+        <!-- And yes, I had fun with http://copypastecharacter.com/symbols  -->
+        <ul class="links-to-floor">
+            <li class="ascensorLink ascensorLink0 selected">
+                <span>&#10027;</span>
+            </li>
+            <li class="ascensorLink ascensorLink1">
+                <span>&#10002;</span>
+            </li>
+            <li class="ascensorLink ascensorLink2">
+                <span>&#9891;</span>
+            </li>
+            <li class="ascensorLink ascensorLink3">
+                <span>&#9000;</span>
+            </li>
+            <li class="ascensorLink ascensorLink4">
+                <span>{}</span>
+            </li>
+            <li class="ascensorLink ascensorLink5">
+                <span>&#9990;</span>
+            </li>
+            <li class="ascensorLink ascensorLink6">
+                <span>&#9794;</span>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="ascensor">
+        <!-- Home -->
+        <section style="position: absolute; overflow: auto; top: 0px; left: 0px; width: 100%; height: 100%; transform: translateY(100%) translateX(0%);">
+            <article class="container">
+                <h1>主页</h1>
+                <p><a href="http://gaocegege.github.io/#blog">&rarr; 部落格</a>
+                </p>
+                <iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe>
+            </article>
+        </section>
+
+        <!-- Implementation -->
+        <section style="position: absolute; overflow: auto; top: 0px; left: 0px; width: 100%; height: 100%; transform: translateY(100%) translateX(100%);">
+            <article class="container">
+                <h1>部落格</h1>
+                <ul>
+                    <li>GitHub.io → <a href="http://gaocegege.github.io/Blog/">http://gaocegege.github.io/Blog/</a>
+                    </li>
+                    <li>CSDN → <a href="http://blog.csdn.net/cecesjtu">http://blog.csdn.net/cecesjtu</a>
+                    </li>
+                </ul>
+                <p><a href="http://gaocegege.github.io/#project">&darr; 项目</a>
+                </p>
+            </article>
+        </section>
+        <section style="position: absolute; overflow: auto; top: 0px; left: 0px; width: 100%; height: 100%; transform: translateY(200%) translateX(100%);">
+            <article class="container">
+                <h1>项目</h1>
+                <ul>
+                    <li><a href="https://github.com/gaocegege/Onlien-Book-Store">网上书店</a>
+                    </li>
+                    <li><a href="https://github.com/gaocegege/P2Project">简易社交系统</a>
+                    </li>
+                    <li><a href="https://github.com/gaocegege/DianPing-Hackathon-in-School">大众点评校园比赛--吃啥</a>
+                    </li>
+                    <li><a href="https://github.com/gaocegege/Project-grade2">Android新闻应用后台服务器</a>
+                    </li>
+                </ul>
+                <p><a href="http://gaocegege.github.io/#test">&rarr; 留存页面</a>
+            </article>
+        </section>
+
+        <!-- Examples -->
+        <section style="position: absolute; overflow: auto; top: 0px; left: 0px; width: 100%; height: 100%; transform: translateY(200%) translateX(200%);">
+            <article class="container">
+                <h1>留存页面</h1>
+                <p><a href="http://gaocegege.github.io/#test1">&rarr; 留存页面一</a>
+                </p>
+            </article>
+        </section>
+
+        <section style="position: absolute; overflow: auto; top: 0px; left: 0px; width: 100%; height: 100%; transform: translateY(200%) translateX(300%);">
+            <article class="container">
+                <h1>留存页面一</h1>
+                <p><a href="http://gaocegege.github.io/#about">&uarr; 联系我</a>
+            </article>
+        </section>
+
+
+        <!-- Me -->
+        <section style="position: absolute; overflow: auto; top: 0px; left: 0px; width: 100%; height: 100%; transform: translateY(100%) translateX(300%);">
+            <article class="container">
+                <h1>联系我</h1>
+                <ul>
+                    <li>邮箱 → <a href="gaocegege@hotmail.com">gaocegege@hotmail.com</a>
+                    </li>
+                    <li>GitHub → <a href="https://github.com/gaocegege">gaocegege</a>
+                    </li>
+                    <li>QQ → 270863799</li>
+                    <li>微博 → <a href="http://weibo.com/constructcece">http://weibo.com/constructcece</a></li>
+                </ul>
+                <p><a href="http://gaocegege.github.io/#support">&uarr; Ascensor.js</a>
+            </article>
+        </section>
+
+        <!-- License -->
+        <section style="position: absolute; overflow: auto; top: 0px; left: 0px; width: 100%; height: 100%; transform: translateY(0%) translateX(300%);">
+            <article class="container">
+                <h1>Ascensor.js</h1>
+                <p>页面使用了<a href="http://kirkas.ch/ascensor/">Ascensor.js</a>，Ascensor.js是一个Web幻灯片演示的Jquery插件</p>
+                <p>Website using ascensor :</p>
+                <a href="http://www.waterevive.com/" title="new world whisky">waterevive</a>
+                <br>
+                <a href="http://shanaemairs.com/" title="new world whisky">shanaemairs</a>
+                <br>
+                <a href="http://reverseburo.com/" title="new world whisky">reverseburo</a>
+                <br>
+                <a href="http://www.robclowes.com/" title="new world whisky">robclowes</a>
+                <br>
+                <a href="http://iadindustry.se/" title="new world whisky">iadindustry</a>
+                <br>
+                <a href="http://newworldwhisky.com.au/" title="new world whisky">newworldwhisky</a>
+                <br>
+                <a href="http://www.lucasexbrayat.com/#/accueil">lucasexbrayat</a>
+                <br>
+                <a href="http://scan.dk/dk/hjem;jsessionid=486F06AA85436F47F129928B520BBC93">scan.dk</a>
+                <a href="http://alpineconstruction.ca/">alpineconstruction.dk</a>
+                <pre class="prettyprint"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"ascensor"</span><span class="tag">&gt;</span><span class="pln"><br>&nbsp; </span><span class="tag">&lt;div&gt;</span><span class="pln">Content 1</span><span class="tag">&lt;/div&gt;</span><span class="pln"><br>&nbsp; </span><span class="tag">&lt;div&gt;</span><span class="pln">Content 2</span><span class="tag">&lt;/div&gt;</span><span class="pln"><br>&nbsp; </span><span class="tag">&lt;div&gt;</span><span class="pln">Content 3</span><span class="tag">&lt;/div&gt;</span><span class="pln"><br></span><span class="tag">&lt;/div&gt;</span><span class="pln"><br></span><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"jquery['&gt;</span><span class="pun">=</span><span class="lit">1.7</span><span class="str">'].js"&gt;</span><span class="tag">&lt;/script&gt;</span><span class="pln"><br></span><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"jquery.ascensor.js"</span><span class="tag">&gt;&lt;/script&gt;</span><span class="pln"><br></span><span class="tag">&lt;script&gt;</span><span class="pln"><br>&nbsp; $</span><span class="pun">(</span><span class="str">'#ascensor'</span><span class="pun">).</span><span class="pln">ascensor</span><span class="pun">();</span><span class="pln"><br></span><span class="tag">&lt;/script&gt;</span></pre>
+            </article>
+        </section>
+
+    </div>
+
+    <script type="text/javascript" src="ascensorInit.js"></script>
+
+</body>
 
 </html>
