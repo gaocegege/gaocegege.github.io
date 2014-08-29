@@ -2,7 +2,7 @@ $().ready(function() {
         var ascensor = $('#ascensor').ascensor({
             childType: "section",
             // name of the floor,showed as '#XXX'
-            ascensorFloorName: ["home", "blog", "project", "test", "test1", "about", "support"],
+            ascensorFloorName: ["home", "blog", "project", "slides", "test1", "about", "support"],
             // slide time
             time: 250,
             WindowsFocus: true,
