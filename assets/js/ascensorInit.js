@@ -4,7 +4,7 @@ $().ready(function() {
             // name of the floor,showed as '#XXX'
             ascensorFloorName: ["home", "blog", "project", "slides", "test1", "about", "support"],
             // slide time
-            time: 250,
+            time: 400,
             WindowsFocus: true,
             WindowsOn: 0,
             //slide direction
