@@ -12,7 +12,12 @@
     position: relative;
     float: left;
 }
-
+.summer-post-author .author-label {
+    display: block;
+    font-size: 1rem;
+    color: gray;
+    font-style: italic;
+}
 .summer-post-author .summer-post-author-avatar {
     width: 12.5rem;
     height: 12.5rem;
@@ -21,7 +26,6 @@
     margin-right: 0;
     margin-bottom: 1.25rem;
 }
-
 @media only screen and (min-width: 40.063em) {
     .summer-post-author .summer-post-author-avatar {
         margin-right: 3.125rem;
