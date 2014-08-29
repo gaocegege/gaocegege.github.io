@@ -1,0 +1,16 @@
+.avatar {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    float: none;
+    margin-right: 0;
+    margin-bottom: 1.25rem;
+}
+
+@media only screen and (min-width: 40.063em) {
+    .avatar {
+        margin-right: 3.125rem;
+        margin-bottom: 0;
+        float: left;
+    }
+}
