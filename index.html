@@ -6,9 +6,7 @@
     <meta name="description" content="个人主页，记录生活点滴">
     <meta name="keywords" content="cpp, ICS, CSE, 随笔">
     <meta name="baidu-site-verification" content="tLbSwFacGk" />
-    <script type="text/javascript" src="http://gaocegege.github.io/assets/js/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="http://gaocegege.github.io/assets/js/jquery.ascensor.js"></script>
-    <script type="text/javascript" src="http://gaocegege.github.io/assets/js/ascensorInit.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <script type="text/javascript">
     var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
     document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe89eeec9d543f238bf73cfae5f59042c' type='text/javascript'%3E%3C/script%3E"));
@@ -20,10 +18,17 @@
         s.parentNode.insertBefore(hm, s);
     })();
     </script>
-    <link rel="stylesheet" href="http://gaocegege.github.io/assets/css/main.css">
-    <link rel="stylesheet" href="http://gaocegege.github.io/assets/css/custom.css">
 
     <title>高策的个人主页</title>
+
+    <script src="js/skel.min.js"></script>
+    <script src="js/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="css/skel.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-wide.css" />
+        <link rel="stylesheet" href="css/style-noscript.css" />
+    </noscript>
 
     <!-- Icons -->
     <!-- 16x16 -->
@@ -40,177 +45,37 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
 </head>
 
-<body>
-    <nav id="navigationMap">
-        <!-- And yes, I had fun with http://copypastecharacter.com/symbols  -->
-        <ul class="links-to-floor">
-            <li class="ascensorLink ascensorLink0 selected">
-                <span>&#10027;</span>
-            </li>
-            <li class="ascensorLink ascensorLink1">
-                <span>&#10002;</span>
-            </li>
-            <li class="ascensorLink ascensorLink2">
-                <span>&#9891;</span>
-            </li>
-            <li class="ascensorLink ascensorLink3">
-                <span>&#9000;</span>
-            </li>
-            <li class="ascensorLink ascensorLink4">
-                <span>{}</span>
-            </li>
-            <li class="ascensorLink ascensorLink5">
-                <span>&#9990;</span>
-            </li>
-            <li class="ascensorLink ascensorLink6">
-                <span>&#9794;</span>
-            </li>
-        </ul>
-    </nav>
+<body class="loading">
+    <div id="wrapper">
+        <div id="bg"></div>
+        <div id="overlay"></div>
+        <div id="main">
 
-    <div id="ascensor">
-        <!-- Home -->
-        <section style="position: absolute; overflow: auto; top: 0px; left: 0px; width: 100%; height: 100%; transform: translateY(100%) translateX(0%);">
-            <article class="container">
-                <div class="row">
-                    <section class="summer-post-author">
-                        <img src="http://gaocegege.github.io/images/avatar.jpg" class="summer-post-author-avatar" alt="Gao Ce's photo">
-                        <span class="author-label">Coder</span>
-                        <h1>高策</h1>
-                        <p><a href="mailto:gaocegege@hotmail.com" class="author-website" title="[GMCP] Compose a new mail to gaocegege@hotmail.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=gaocegege@hotmail.com','Compose new message','width=640,height=480');return false" rel="noreferrer">gaocegege@hotmail.com</a>
-                        </p>
-                        <p class="author-label">Done is better than perfect.</p>
-                    </section>
-                </div>
-                <p><a href="http://gaocegege.github.io/#blog">&rarr; 部落格</a>
-                </p>
-                <iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe>
-            </article>
-        </section>
+            <!-- Header -->
+            <header id="header">
+                <h1>Gao Ce</h1>
+                <p>Coder &nbsp;&bull;&nbsp; Coder &nbsp;&bull;&nbsp; Coder</p>
+                <nav>
+                    <ul>
+                        <li><a href="http://gaocegege.com/Blog/" class="icon fa-book"><span class="label">Blog</span>Blog</a>
+                        </li>
+                        <li><a href="http://gaocegege.com/resume/" class="icon fa-user"><span class="label">Resume</span>Resume</a>
+                        </li>
+                        <li><a href="https://github.com/gaocegege" class="icon fa-github"><span class="label">Github</span>Github</a>
+                        </li>
+                        <li><a href="mailto:gaocegege@hotmail.com" class="icon fa-envelope-o"><span class="label">Email</span>Email</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
 
-        <!-- Implementation -->
-        <section style="position: absolute; overflow: auto; top: 0px; left: 0px; width: 100%; height: 100%; transform: translateY(100%) translateX(100%);">
-            <article class="container">
-                <h1>部落格</h1>
-                <ul>
-                    <li>
-                        <h2>GitHub.io → <a href="http://gaocegege.com/Blog/">http://gaocegege.com/Blog/</a>
-                        </h2>
-                    </li>
-                    <li>CSDN（近期弃坑） → <a href="http://blog.csdn.net/cecesjtu">http://blog.csdn.net/cecesjtu</a>
-                    </li>
-                </ul>
-                <p><a href="http://gaocegege.github.io/#project">&darr; 项目</a>
-                </p>
-            </article>
-        </section>
-        <section style="position: absolute; overflow: auto; top: 0px; left: 0px; width: 100%; height: 100%; transform: translateY(200%) translateX(100%);">
-            <article class="container">
-                <h1>项目</h1>
-                <ul>
-                    <li><a href="https://github.com/gaocegege/Onlien-Book-Store">网上书店</a>
-                    </li>
-                    <li><a href="https://github.com/gaocegege/P2Project">简易社交系统</a>
-                    </li>
-                    <li><a href="https://github.com/gaocegege/DianPing-Hackathon-in-School">大众点评校园比赛--吃啥</a>
-                    </li>
-                    <li><a href="https://github.com/gaocegege/Project-grade2">Android新闻应用后台服务器</a>
-                    </li>
-                </ul>
-                <p><a href="http://gaocegege.github.io/#slides">&rarr; Web Slides</a>
-            </article>
-        </section>
+            <!-- Footer -->
+            <footer id="footer">
+                <span class="copyright">&copy; Gao Ce. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+            </footer>
 
-        <!-- Examples -->
-        <section style="position: absolute; overflow: auto; top: 0px; left: 0px; width: 100%; height: 100%; transform: translateY(200%) translateX(200%);">
-            <article class="container">
-                <h1>Web Slides</h1>
-                <p><a href="http://gaocegege.github.io/Slides/">Slide Page</a>
-                </p>
-                <p><a href="http://gaocegege.github.io/#test1">&rarr; 留存页面一</a>
-                </p>
-            </article>
-        </section>
-
-        <section style="position: absolute; overflow: auto; top: 0px; left: 0px; width: 100%; height: 100%; transform: translateY(200%) translateX(300%);">
-            <article class="container">
-                <h1>留存页面一</h1>
-                <p><a href="http://gaocegege.github.io/#about">&uarr; 联系我</a>
-            </article>
-        </section>
-
-
-        <!-- Me -->
-        <section style="position: absolute; overflow: auto; top: 0px; left: 0px; width: 100%; height: 100%; transform: translateY(100%) translateX(300%);">
-            <article class="container">
-                <h1>联系我</h1>
-                <ul>
-                    <li>邮箱 → <a href="gaocegege@hotmail.com">gaocegege@hotmail.com</a>
-                    </li>
-                    <li>GitHub → <a href="https://github.com/gaocegege">gaocegege</a>
-                    </li>
-                    <li>QQ & Wechat → 270863799</li>
-                    <li>微博 → <a href="http://weibo.com/constructcece">http://weibo.com/constructcece</a>
-                    </li>
-                    <li>人人 → <a href="http://www.renren.com/starvestrive">http://www.renren.com/starvestrive</a>
-                    </li>
-                    <li>Twitter → <a href="https://twitter.com/gaocegege">https://twitter.com/gaocegege</a>
-                    </li>
-                    <li>Facebook → <a href="https://www.facebook.com/gaocegege">https://www.facebook.com/gaocegege</a>
-                    </li>
-                    <li>Linkedin → <a href="https://www.linkedin.com/in/gaocegege">https://www.linkedin.com/in/gaocegege</a>
-                    </li>
-                </ul>
-                <p><a href="http://gaocegege.github.io/#support">&uarr; Ascensor.js</a>
-            </article>
-        </section>
-
-        <!-- License -->
-        <section style="position: absolute; overflow: auto; top: 0px; left: 0px; width: 100%; height: 100%; transform: translateY(0%) translateX(300%);">
-            <article class="container">
-                <h1>Ascensor.js</h1>
-                <p>页面使用了<a href="http://kirkas.ch/ascensor/">Ascensor.js</a>，Ascensor.js是一个Web幻灯片演示的Jquery插件</p>
-                <p>Website using ascensor :</p>
-                <a href="http://www.waterevive.com/" title="new world whisky">waterevive</a>
-                <br>
-                <a href="http://shanaemairs.com/" title="new world whisky">shanaemairs</a>
-                <br>
-                <a href="http://reverseburo.com/" title="new world whisky">reverseburo</a>
-                <br>
-                <a href="http://www.robclowes.com/" title="new world whisky">robclowes</a>
-                <br>
-                <a href="http://iadindustry.se/" title="new world whisky">iadindustry</a>
-                <br>
-                <a href="http://newworldwhisky.com.au/" title="new world whisky">newworldwhisky</a>
-                <br>
-                <a href="http://www.lucasexbrayat.com/#/accueil">lucasexbrayat</a>
-                <br>
-                <a href="http://scan.dk/dk/hjem;jsessionid=486F06AA85436F47F129928B520BBC93">scan.dk</a>
-                <a href="http://alpineconstruction.ca/">alpineconstruction.dk</a>
-                <pre class="prettyprint"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"ascensor"</span><span class="tag">&gt;</span><span class="pln"><br>&nbsp; </span><span class="tag">&lt;div&gt;</span><span class="pln">Content 1</span><span class="tag">&lt;/div&gt;</span><span class="pln"><br>&nbsp; </span><span class="tag">&lt;div&gt;</span><span class="pln">Content 2</span><span class="tag">&lt;/div&gt;</span><span class="pln"><br>&nbsp; </span><span class="tag">&lt;div&gt;</span><span class="pln">Content 3</span><span class="tag">&lt;/div&gt;</span><span class="pln"><br></span><span class="tag">&lt;/div&gt;</span><span class="pln"><br></span><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"jquery['&gt;</span><span class="pun">=</span><span class="lit">1.7</span><span class="str">'].js"&gt;</span><span class="tag">&lt;/script&gt;</span><span class="pln"><br></span><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"jquery.ascensor.js"</span><span class="tag">&gt;&lt;/script&gt;</span><span class="pln"><br></span><span class="tag">&lt;script&gt;</span><span class="pln"><br>&nbsp; $</span><span class="pun">(</span><span class="str">'#ascensor'</span><span class="pun">).</span><span class="pln">ascensor</span><span class="pun">();</span><span class="pln"><br></span><span class="tag">&lt;/script&gt;</span></pre>
-            </article>
-        </section>
-
+        </div>
     </div>
-
-    <script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-54253120-1', 'auto');
-    ga('require', 'linkid', 'linkid.js');
-    ga('require', 'displayfeatures');
-    ga('send', 'pageview');
-    </script>
 </body>
 
 </html>
