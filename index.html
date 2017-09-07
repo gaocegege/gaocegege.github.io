@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+
+    <link rel="stylesheet" href="./assets/style.css" type="text/css">
+
+    <script src="./assets/jquery-1.6.4.min.js" type="text/javascript"></script>
+    <script src="./assets/pagify.js" type="text/javascript"></script>
+
+    <script type='text/javascript'>
+        $(document).ready(function() {
+            $('#page_holder').pagify({
+                pages: ['about', 'usage', 'options'],
+                animation: 'fadeIn',
+                'default': 'about',
+                cache: true
+            });
+        });
+    </script>
+
+    <title>Processing.R</title>
+</head>
+
+<body>
+    <div id='container'>
+        <p align="center">
+            <br>
+            <h1 align="center">Ce Gao</h1>
+        </p>
+
+        <p align="center">
+            <a href="http://en.sjtu.edu.cn/"><img src="https://img.shields.io/badge/univ-SJTU-020081.svg" alt="SJTU"></a>
+            <a href="http://en.sjtu.edu.cn/"><img src="https://img.shields.io/badge/degree-master-0100b3.svg" alt="Master"></a>
+            <a href="http://gaocegege.com/resume/"><img src="https://img.shields.io/badge/resume-english-blue.svg" alt="Resume"></a>
+            <a href="http://gaocegege.com/resume/cn/"><img src="https://img.shields.io/badge/resume-chinese-blue.svg" alt="Resume in Chinese"></a>
+            <a href="https://github.com/gaocegege/"><img src="https://img.shields.io/github/followers/gaocegege.svg?style=social&label=Follow" alt="GitHub"></a>
+
+        </p>
+        <div>
+            <p>Hi, I am Ce Gao. gaocegege is my username in all platforms. You could find me in:</p>
+            <ul>
+                <li><a href="http://gaocegege.com/Blog">My blog</a></li>
+                <li><a href="http://gaocegege.com/Blog">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/gaocegege/">LinkedIn</a></li>
+                <li><a href="https://www.zhihu.com/people/gaocegege">知乎</a></li>
+            </ul>
+        </div>
+        <div id='page_holder' />
+    </div>
+</body>
+
+</html>
